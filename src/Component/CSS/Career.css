@@ -1,0 +1,15 @@
+#career{
+  margin-left: 500px;
+}
+img{
+  width:1200px;
+  /* width: 100%; */
+  height:800px;
+  /* height: 600px; */
+}
+
+fieldset {
+  width: 2000px;
+  margin-left: 50px;
+  font-size: 1.5em;
+}
