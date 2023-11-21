@@ -1,22 +1,43 @@
+import "../CSS/Career.css";
 
 const Career3 = () => {
   return (
     <div>
-      <h1>자격증 및 그외 스펙</h1>
       <fieldset>
-        <legend>자격증</legend>
-        <ul>
-          <li>자격증에 대한 내용을 작성</li>
-          <li>자격증에 대한 내용을 작성</li>
-        </ul>
-      </fieldset>
-
-      <fieldset>
-        <legend>그외 스펙</legend>
-        <ul>
-          <li>스펙에 대한 내용을 작성</li>
-          <li>스펙에 대한 내용을 작성</li>
-        </ul>
+        <legend>스터디 & 동아리</legend>
+        <fieldset>
+          <legend>스터디</legend>
+          <table>
+            <tr>
+              <td>활동 시기</td>
+              <td>스터디</td>
+            </tr>
+            <tr>
+              <td>2023.3~2023.6</td>
+              <td>23-1 파이썬 알고리즘 스터디</td>
+            </tr>
+            <tr>
+              <td>
+                2023.9~2023.12
+              </td>
+              <td>
+                23-2 네트워크 스터디
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <fieldset>
+          <legend>동아리</legend>
+          <table>
+            <tr>
+              <td>활동 시기</td>
+              <td>스터디</td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+          </table>
+        </fieldset>
       </fieldset>
     </div>
   );

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import contests from "./Data/contests";
+import Comments from "./Comments";
 // import "./CSS/Contest.css";
 
 function Contest() {
@@ -15,6 +16,7 @@ function Contest() {
         </button>
       ))}
       {contests[index].content}
+      <Comments />
     </div>
   );
 }

@@ -151,48 +151,6 @@ const Resume = () => {
 						</table>
 					</td>
 				</tr>
-				{/* <tr> */}
-				{/* <td>
-						<em>공모전</em>
-						<table>
-							<tr><th bgcolor="#e3fcff">공모전</th>
-								<th bgcolor="#e3fcff">관련 분야</th></tr>
-							<tr>
-								<td>[앨리스코드챌린지]AI 플랫폼 백엔드 개발 콘테스트</td>
-								<td>서버,백엔드</td>
-							</tr>
-							<tr>
-								<td>구름톤 in JEJU 8기</td>
-								<td>프론트,백엔드,DB</td>
-
-							</tr>
-							<tr>
-								<td>2023 제 23회 ICPC 대학생 프로그래밍 경시대회</td>
-								<td>알고리즘</td>
-							</tr>
-							<tr>
-								<td>웹 2.0/3.0 서비스공모 2023 청년빌더 오디션</td>
-								<td>프론트,백엔드,풀스텍</td>
-							</tr>
-							<tr>
-								<td>2023 코드프레소 웹 개발 콘테스트</td>
-								<td>프론트,백엔드,풀스텍</td>
-							</tr>
-						</table>
-					</td>
-					<td>
-						<em>Project</em>
-						<table>
-							<tr><th bgcolor="#e3fcff">프로젝트명</th>
-								<th bgcolor="#e3fcff">진행기간</th></tr>
-							<tr><td>트위터 클론코딩</td><td>2023 여름방학</td></tr>
-							<tr><td>채팅 프로그램 만들기</td><td>2023 여름방학</td></tr>
-							<tr><td>파이썬 알고리즘 풀이</td>2023 1학기</tr>
-							<tr><td>나만의 메모앱 만들기</td>2023 2학기~</tr>
-							<tr><td>오래된 안드로이드폰을 이용하여 개인 서버 만들기</td>2023 1학기</tr>
-						</table>
-					</td> */}
-				{/* </tr> */}
 			</table>
 		</div>
 	);

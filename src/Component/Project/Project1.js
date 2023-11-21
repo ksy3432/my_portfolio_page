@@ -10,7 +10,7 @@ const Project1 = () => {
         </Link>
       </div>
       <Link to={"https://nwitter-b14ca.web.app/#/"}>
-        <img src="../../../public/image/twitter_cloning.PNG" alt="react" />
+        <img src="/image/twitter_cloning.PNG" alt="react" />
       </Link>
       <fieldset id="project_field">
         <legend>프로젝트 개요</legend>

@@ -9,7 +9,7 @@ const Project2 = () => {
           <h1>(완료)</h1>
         </Link>
       </div>
-      <img src="" alt="react" />
+      <img src="/image/chatteringbox.PNG" alt="react" />
       <fieldset id="project_field">
         <legend>프로젝트 개요</legend>
         <fieldset id="project_field" style={{ fontSize: "1em", marginLeft: 0 }}>

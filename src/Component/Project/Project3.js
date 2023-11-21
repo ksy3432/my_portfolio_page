@@ -9,7 +9,7 @@ const Project3 = () => {
           <h1>(진행 중)</h1>
         </Link>
       </div>
-      <img src=" " alt="python" />
+      <img src="/image/notepad.PNG" alt="python" />
       <fieldset id="project_field">
         <legend>프로젝트 개요</legend>
         <fieldset id="project_field" style={{ fontSize: "1em", marginLeft: 0 }}>
