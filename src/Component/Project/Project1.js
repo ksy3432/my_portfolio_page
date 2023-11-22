@@ -1,13 +1,17 @@
 import { Link } from "react-router-dom";
+import "../CSS/Project.css"
 
 const Project1 = () => {
   return (
     <div>
-      <div style={{ display: "flex" }}>
+      <div id="projcontent" style={{ display: "flex" }}>
         <h1>React와 Firebase를 이용한 트위터 클론코딩하기</h1>
-        <Link to={"https://github.com/ksy3432/nwitter"}>
-          <h1>(완료)</h1>
+        <Link to={"https://github.com/ksy3432/nwitter"} style={{ textDecorationColor: "grey" }}>
+          <h1 style={{ color: "grey" }}>(완료)</h1>
         </Link>
+      </div>
+      <div>
+
       </div>
       <Link to={"https://nwitter-b14ca.web.app/#/"}>
         <img src="/image/twitter_cloning.PNG" alt="react" />

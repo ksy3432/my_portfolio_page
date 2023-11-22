@@ -3,7 +3,7 @@ import React from "react";
 const Project4 = () => {
   return (
     <div>
-      <h1>나만의 개인 서버 만들기(진행 중)</h1>
+      <h1 style={{ display: "flex" }}>나만의 개인 서버 만들기<div style={{ color: "moccasin" }}>(진행 중)</div></h1>
       <img src="/image/Linux.PNG" alt="react" />
       <fieldset id="project_field">
         <legend>프로젝트 개요</legend>

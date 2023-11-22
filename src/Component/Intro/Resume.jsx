@@ -33,10 +33,10 @@ const Resume = () => {
 								</tr>
 								<tr>
 									<td>블로그 주소</td>
-									<Link to={"https://ksy3432.vercel.app/"}>https://ksy3432.vercel.app/</Link>							</tr>
+									<Link to={"https://ksy3432.vercel.app/"} style={{ color: 'white' }}>https://ksy3432.vercel.app/</Link>							</tr>
 								<tr>
 									<td>github 주소</td>
-									<Link to={"https://github.com/ksy3432"}>https://github.com/ksy3432</Link>
+									<Link to={"https://github.com/ksy3432"} style={{ color: 'white' }}>https://github.com/ksy3432</Link>
 								</tr>
 							</table>
 						</fieldset>

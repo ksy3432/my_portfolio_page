@@ -5,8 +5,8 @@ const Project3 = () => {
     <div>
       <div style={{ display: "flex" }}>
         <h1>나만의 메모앱 만들기</h1>
-        <Link to={"https://github.com/ksy3432/myApp2"}>
-          <h1>(진행 중)</h1>
+        <Link to={"https://github.com/ksy3432/myApp2"} style={{ textDecorationColor: "moccasin" }}>
+          <h1 style={{ color: "moccasin" }}>(진행 중)</h1>
         </Link>
       </div>
       <img src="/image/notepad.PNG" alt="python" />

@@ -3,12 +3,6 @@ img {
   height: 300px;
 }
 
-fieldset {
-  width: 1000px;
-  margin-left: 50px;
-  font-size: 1.5em;
-}
-
 ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -16,6 +10,25 @@ ul {
 }
 
 #project_field {
-  font-size: 1em;
+  font-size: 1.3em;
   width: 1000px;
+}
+
+#projectswitchbutton {
+  width: 130px;
+  height: 40px;
+  border-style: none;
+  margin-left: 1px;
+  border-radius: 5%;
+}
+
+#projectswitchbutton:hover {
+  background-color: white;
+  color: black;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+#projcontent {
+  border-color: white;
+  border-style: 2px double white;
 }

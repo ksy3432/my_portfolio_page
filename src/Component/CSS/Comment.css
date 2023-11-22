@@ -1,0 +1,21 @@
+#commentbuttonsubmit {
+    width: 120px;
+    height: 45px;
+    font-size: 20px;
+}
+
+#commentinput {
+    width: 800px;
+    height: 40px;
+    background-color: grey;
+    color: aliceblue;
+}
+
+#commentinput::placeholder {
+    color: black;
+}
+
+#commentline {
+    margin-top: 10px;
+    display: flex;
+}

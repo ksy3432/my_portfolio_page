@@ -14,7 +14,7 @@ function Project({ name, isLogged }) {
   return (
     <div id="project">
       {projects.map((project, idx) => (
-        <button key={idx} onClick={contentChange} value={idx}>
+        <button key={idx} id="projectswitchbutton" onClick={contentChange} value={idx}>
           {project.tab}
         </button>
       ))}
