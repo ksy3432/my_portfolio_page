@@ -43,13 +43,13 @@ function App() {
             </Routes>
           </main>
         </div>
-        <footer>
+        {/* <footer>
           <i>
             Copyright 2023. 지은이 all rights reserved.
             <br />
             연락처 : //
           </i>
-        </footer>
+        </footer> */}
       </>
     </BrowserRouter >
   );

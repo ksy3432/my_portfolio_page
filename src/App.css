@@ -5,7 +5,8 @@ body {
 #loginstyle {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
-  margin-left: 500px;
+  margin-left: 850px;
+  margin-top: 80px;
 }
 
 @font-face {
@@ -36,8 +37,10 @@ body {
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  width: 100px;
+  width: 200px;
+  font-size: 1.3em;
   margin-left: 0;
+  margin-top: 20px;
 }
 
 .category a {
@@ -48,6 +51,10 @@ body {
   background-color: #000;
   border-radius: 5px;
   transition: background-color 0.3s, color 0.3s;
+  width: 150px;
+  height: 40px;
+  font-size: 1.2em;
+  margin-left: 45px;
 }
 
 .category a:hover {
@@ -56,7 +63,7 @@ body {
 }
 
 main {
-  margin-left: 20px;
+  margin-left: 60px;
 }
 
 /* .category {
