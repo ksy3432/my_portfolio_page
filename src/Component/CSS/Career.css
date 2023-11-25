@@ -17,6 +17,10 @@ img{
   font-size: 1.2em;
 }
 
+.i1 {
+  padding-right: 10px;
+}
+
 .title_field {
   font-size: 30px;
   font-weight: bold;
@@ -26,7 +30,7 @@ img{
 fieldset {
   width: 1000px;
   margin-left: 0px;
-  font-size: 1.4em;
+  font-size: 25px;
 }
 
 #button_career {

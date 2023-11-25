@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Project2 = () => {
   return (
     <div>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex", marginBottom: "10px" }}>
         <h1>React와 Firebase를 이용한 채팅 프로그램 만들기</h1>
         <Link to={"https://github.com/ksy3432/chatteringbox"} style={{ textDecorationColor: "grey" }}>
           <h1 style={{ color: "grey" }}>(완료)</h1>

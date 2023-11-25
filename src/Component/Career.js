@@ -53,7 +53,7 @@ function Carears({ name, isLogged }) {
             </div>
           ))}
         </div>
-        <div style={{ display: "flex", flexDirection: "column", position: "fixed", marginTop: "50px", marginLeft: "40px" }} id="indexbutton">
+        <div style={{ display: "flex", flexDirection: "column", position: "fixed", marginTop: "50px", marginLeft: "90px" }} id="indexbutton">
           {careers.map((career, idx) => (
             <button key={idx} id={`careerswitchbutton-${idx}`} className="indexbuttoncss"
               style={{ backgroundColor: idx === index ? "lightgrey" : "", color: idx === index ? "black" : "" }}>

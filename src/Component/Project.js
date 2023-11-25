@@ -37,7 +37,7 @@ function Project({ name, isLogged }) {
             </div>
           ))}
         </div>
-        <div style={{ display: "flex", flexDirection: "column", position: "fixed", marginTop: "50px", marginLeft: "60px" }} id="indexbutton">
+        <div style={{ display: "flex", flexDirection: "column", position: "fixed", marginTop: "50px", marginLeft: "90px" }} id="indexbutton">
           {projects.map((project, idx) => (
             <button key={idx} id={`projectswitchbutton-${idx}`} className="indexbuttoncss"
               style={{ backgroundColor: idx === index ? "lightgrey" : "", color: idx === index ? "black" : "" }}>

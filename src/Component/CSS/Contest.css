@@ -20,3 +20,9 @@ fieldset {
   height: 40px;
   margin-left: 1px;
 }
+
+h1 {
+  font-family: 'YClover-Bold';
+  margin-bottom: 30px;
+  font-size: 2.5em;
+}

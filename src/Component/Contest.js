@@ -48,12 +48,12 @@ function Contest({ name, isLogged }) {
       <div style={{ display: "flex" }}>
         <div style={{ marginLeft: "350px" }}>
           {contests.map((contest, idx) => (
-            <div key={idx} ref={el => ContesetRefs.current[idx] = el} id={`contest-${idx}`} className="contest-item" style={{ display: "flex" }}>
+            <div key={idx} ref={el => ContesetRefs.current[idx] = el} id={`contest-${idx}`} className="contest-item" style={{ display: "flex", marginBottom: "50px" }}>
               {contest.content}
             </div>
           ))}
         </div>
-        <div style={{ display: "flex", flexDirection: "column", position: "fixed", marginTop: "0px", marginLeft: "40px" }} id="indexbutton">
+        <div style={{ display: "flex", flexDirection: "column", position: "fixed", marginTop: "0px", marginLeft: "90px" }} id="indexbutton">
           {contests.map((contest, idx) => (
             <button key={idx} id={`contestswitchbutton-${idx}`} className="indexbuttoncss"
               style={{ backgroundColor: idx === index ? "lightgrey" : "", color: idx === index ? "black" : "" }}>

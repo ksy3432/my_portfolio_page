@@ -5,19 +5,19 @@ import Career4 from "../Career/Career4";
 
 const careers = [
   {
-    tab: "인턴 & 경력",
+    tab: "Intern",
     content: <Career1></Career1>,
   },
   {
-    tab: "관심사",
+    tab: "Interest",
     content: <Career2></Career2>,
   },
   {
-    tab: "스터디 & 동아리",
+    tab: "Study",
     content: <Career3></Career3>,
   },
   {
-    tab: "개발블로그",
+    tab: "Blog",
     content: <Career4></Career4>,
   },
 ];
