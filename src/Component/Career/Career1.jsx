@@ -4,7 +4,7 @@ const Career1 = () => {
   return (
     <div>
       <fieldset id="wrapper_field">
-        <legend id="title_field">인턴 & 경력</legend>
+        <legend className="title_field">인턴 & 경력</legend>
         <fieldset id="career_field">
           <legend>인턴</legend>
           <table>

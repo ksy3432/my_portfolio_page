@@ -1,6 +1,6 @@
 const Contest1 = () => {
   return (
-    <div>
+    <div className="">
       <h1>[앨리스코드챌린지]AI 플랫폼 백엔드 개발 콘테스트</h1>
       <img src="/image/contest1.JPG" alt="react" />
       <fieldset>

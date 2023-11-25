@@ -13,26 +13,31 @@ function App() {
   return (
     <BrowserRouter>
       <>
-        <header id="title_name" style={{ display: "flex" }}>
+        <header id="title_name" style={{ display: "flex", marginTop: "20px", marginLeft: "40px" }}>
           <div id="title">
             KSY'S
             <div id="title_left">
               Portfolio
             </div>
           </div>
-          <div id="loginstyle">
-            <Auth />
-          </div>
-          <br />
-        </header>
-        <div id="container" style={{ display: "flex" }}>
-          <nav className="category">
+          <nav className="category" style={{ display: "flex" }}>
             <Link to={"/introduction"}>나의 소개</Link>
             <Link to={"/project"}>프로젝트</Link>
             <Link to={"/contest"}>공 모 전 </Link>
             <Link to={"/career"}>나의 경력</Link>
-
+            <div id="loginstyle">
+              <Auth />
+            </div>
           </nav>
+          <br />
+        </header>
+        <div id="container" style={{ display: "flex" }}>
+          {/* <nav className="category">
+            <Link to={"/introduction"}>나의 소개</Link>
+            <Link to={"/project"}>프로젝트</Link>
+            <Link to={"/contest"}>공 모 전 </Link>
+            <Link to={"/career"}>나의 경력</Link>
+          </nav> */}
           <main>
             <Routes>
               <Route path="/" Component={index} />
@@ -42,6 +47,7 @@ function App() {
               <Route path="/career" Component={Career} />
             </Routes>
           </main>
+          {/* <index>11111</index> */}
         </div>
         {/* <footer>
           <i>

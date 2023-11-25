@@ -9,7 +9,7 @@ const Project2 = () => {
           <h1 style={{ color: "grey" }}>(완료)</h1>
         </Link>
       </div>
-      <img src="/image/chatteringbox.PNG" alt="react" />
+      <img src="/image/chatteringbox.PNG" alt="react" style={{ width: "500px" }} />
       <fieldset id="project_field">
         <legend>프로젝트 개요</legend>
         <fieldset id="project_field" style={{ fontSize: "1em", marginLeft: 0 }}>

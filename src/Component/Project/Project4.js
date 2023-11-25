@@ -4,7 +4,7 @@ const Project4 = () => {
   return (
     <div>
       <h1 style={{ display: "flex" }}>나만의 개인 서버 만들기<div style={{ color: "moccasin" }}>(진행 중)</div></h1>
-      <img src="/image/Linux.PNG" alt="react" />
+      <img src="/image/Linux.PNG" alt="Linux" style={{ width: "500px" }} />
       <fieldset id="project_field">
         <legend>프로젝트 개요</legend>
         비용걱정과 보안 걱정없이 마음대로 사용할 수 있는 리눅스 개인 서버를 구축하기 위함<br />

@@ -1,10 +1,14 @@
 #resume {
-  width: 1200px;
+  width: 1350px;
 }
 
 body {
   background-color: rgba(0, 0, 0, 0.805);
   color: aliceblue;
+}
+
+#container {
+  width: 1300px;
 }
 
 em {
@@ -19,18 +23,22 @@ em {
   border: 2px solid white;
   table-layout: fixed;
   /* 테이블 레이아웃을 고정으로 설정 */
-  width: 100%;
+  width: 1800px;
   /* 테이블 전체 너비를 100%로 설정 */
-  height: 1130px;
+  height: 1300px;
 }
 
 #basiccontent {
-  height: 300px;
+  height: 340px;
   text-align: left;
 }
 
 #vector {
   width: 30px;
+}
+
+.c1 {
+  width: 440px;
 }
 
 #interncontent {}
@@ -47,26 +55,27 @@ em {
 
 #basic {
   margin-left: 10px;
-  width: 580px;
-  height: 310px;
+  width: 670px;
+  height: 380px;
 }
 
 #intern {
-  width: 500px;
-  height: 310px;
-  margin-left: 42px;
+  width: 540px;
+  height: 380px;
+  margin-left: 70px;
 }
 
 fieldset#major {
   margin-top: 0;
-  height: 300px;
+  height: 350px;
+  width: 605px;
   margin-left: 10px;
   vertical-align: top;
 }
 
 #certificate {
-  width: 530px;
-  height: 300px;
+  width: 600px;
+  height: 350px;
   margin-left: 10px;
   margin-top: 0;
 }
@@ -97,19 +106,31 @@ td#fourth {
   vertical-align: top;
 }
 
-#contest {
+#contest_intro {
   margin-top: 0;
   margin-left: 10px;
-  width: 600px;
-  height: 370px;
+  width: 710px;
+  height: 400px;
   vertical-align: top;
+}
+
+.c2 {
+  width: 20px;
 }
 
 #proj {
   margin-top: 0;
-  width: 480px;
-  margin-left: 60px;
-  height: 370px;
+  width: 500px;
+  margin-left: 100px;
+  height: 400px;
+}
+
+.p1 {
+  width: 330px;
+}
+
+.p2 {
+  width: 180px;
 }
 
 /* td#major {
