@@ -1,6 +1,7 @@
 img {
   width: 300px;
   height: 300px;
+  margin-bottom: 10px;
 }
 
 @font-face {
@@ -17,6 +18,34 @@ img {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'iceSotong-Rg';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceSotong-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HakgyoansimGaeulsopungB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimGaeulsopungB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GoryeongStrawberry';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/GoryeongStrawberry.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KCCMurukmuruk';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCMurukmuruk.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -24,8 +53,20 @@ ul {
 }
 
 #project_field {
-  font-size: 25px;
+  font-size: 30px;
   width: 1000px;
+  font-family: 'HakgyoansimGaeulsopungB';
+}
+
+.title_proj {
+  font-family: 'KCCMurukmuruk';
+  ;
+  font-size: 25px;
+}
+
+#id_title {
+  font-family: 'GoryeongStrawberry';
+  font-size: 25px;
 }
 
 #projectswitchbutton {
@@ -55,6 +96,8 @@ ul {
   border-style: none;
   margin-top: 1px;
   border-radius: 5%;
+  background-color: black;
+  text-align: center;
 }
 
 h1 {

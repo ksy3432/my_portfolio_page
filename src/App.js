@@ -8,6 +8,9 @@ import Career from "./Component/Career";
 import "./App.css";
 import Resume from "./Component/Intro/Resume";
 import Auth from "./Component/Auth/Auth";
+import { AuthProvider } from "./AuthProvider";
+
+
 
 function App() {
   return (
@@ -32,12 +35,6 @@ function App() {
           <br />
         </header>
         <div id="container" style={{ display: "flex" }}>
-          {/* <nav className="category">
-            <Link to={"/introduction"}>나의 소개</Link>
-            <Link to={"/project"}>프로젝트</Link>
-            <Link to={"/contest"}>공 모 전 </Link>
-            <Link to={"/career"}>나의 경력</Link>
-          </nav> */}
           <main>
             <Routes>
               <Route path="/" Component={index} />
@@ -47,7 +44,6 @@ function App() {
               <Route path="/career" Component={Career} />
             </Routes>
           </main>
-          {/* <index>11111</index> */}
         </div>
         {/* <footer>
           <i>

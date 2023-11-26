@@ -13,6 +13,27 @@ img{
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'GoryeongStrawberry';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/GoryeongStrawberry.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KCCMurukmuruk';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCMurukmuruk.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HakgyoansimGaeulsopungB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimGaeulsopungB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
 #wrapper_field {
   font-size: 1.2em;
 }
@@ -22,15 +43,16 @@ img{
 }
 
 .title_field {
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 35px;
   font-style: italic;
+  font-family: 'GoryeongStrawberry';
 }
 
 fieldset {
-  width: 1000px;
+  width: 800px;
   margin-left: 0px;
-  font-size: 25px;
+  font-size: 30px;
+  font-family: 'HakgyoansimGaeulsopungB';
 }
 
 #button_career {
@@ -48,4 +70,8 @@ fieldset {
   background-color: white;
   color: black;
   transition: background-color 0.3s, color 0.3s;
+}
+
+.int_tit {
+  font-family: 'KCCMurukmuruk';
 }

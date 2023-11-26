@@ -6,7 +6,7 @@ const Career1 = () => {
       <fieldset id="wrapper_field">
         <legend className="title_field">인턴 & 경력</legend>
         <fieldset id="career_field">
-          <legend>인턴</legend>
+          <legend className="int_tit">인턴</legend>
           <table>
             <tr>
               <td className="i1">기간</td>
@@ -23,7 +23,7 @@ const Career1 = () => {
           </table>
         </fieldset>
         <fieldset id="career_field">
-          <legend>경력</legend>
+          <legend className="int_tit">경력</legend>
           <table>
             <tr>
               <td className="i1">기간</td>

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "../CSS/Auth.css";
 
-
 function Auth() {
     const [isLogged, setIsLogged] = useState(false);
     const [Name, setName] = useState("");
@@ -14,6 +13,7 @@ function Auth() {
     );
 
     useEffect(() => {
+        console.log(users);
         localStorage.setItem('users', JSON.stringify(users));
     }, [users]);
 
@@ -24,12 +24,16 @@ function Auth() {
     const handleLogin = (e) => {
         e.preventDefault();
         if (ID !== "" && Password !== "" && Name !== "") {
+            const newUser = { id: ID, password: Password, name: Name, isLogged: true };
+            const updatedUsers = [...users, newUser];
+            setUsers(updatedUsers);
             setIsLogged(true);
-            setUsers(prevUsers => [...prevUsers, { id: ID, password: Password, name: Name }]);
+            localStorage.setItem('currentUserName', Name);
         }
-    }
+    };
 
     const handleLogout = () => {
+        // localStorage.removeItem('currentUserName');
         localStorage.clear();
         setIsLogged(false);
         setName("");
@@ -37,15 +41,15 @@ function Auth() {
         setID("");
         setUsers([]);
         setSubmittedDataList([]);
-    }
+    };
 
     const handleShowLoginForm = () => {
         setShowLoginForm(true);
-    }
+    };
 
     const handleSubmit = (data) => {
         setSubmittedDataList(prev => [...prev, data]);
-    }
+    };
 
     if (isLogged) {
         return (
@@ -60,10 +64,10 @@ function Auth() {
         if (showLoginForm) {
             return (
                 <div>
-                    <form onSubmit={handleLogin} id='LoginForm'>
-                        <input type='text' value={ID} onChange={e => setID(e.target.value)} placeholder='아이디를 입력하세요'></input>
-                        <input type='password' value={Password} onChange={e => setPassword(e.target.value)} placeholder='비밀번호를 입력하세요'></input>
-                        <input type='text' value={Name} onChange={e => setName(e.target.value)} placeholder='닉네임을 입력하세요'></input>
+                    <form onSubmit={handleLogin} style={{ display: 'flex', flexDirection: 'column' }}>
+                        <input type='text' value={ID} onChange={e => setID(e.target.value)} placeholder='아이디를 입력하세요' className='logininputset'></input>
+                        <input type='password' value={Password} onChange={e => setPassword(e.target.value)} placeholder='비밀번호를 입력하세요' className='logininputset'></input>
+                        <input type='text' value={Name} onChange={e => setName(e.target.value)} placeholder='닉네임을 입력하세요' className='logininputset'></input>
                         <button type='submit'>로그인</button>
                     </form>
                 </div>

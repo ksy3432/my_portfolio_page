@@ -11,9 +11,9 @@ const Project2 = () => {
       </div>
       <img src="/image/chatteringbox.PNG" alt="react" style={{ width: "500px" }} />
       <fieldset id="project_field">
-        <legend>프로젝트 개요</legend>
+        <legend id="id_title">프로젝트 개요</legend>
         <fieldset id="project_field" style={{ fontSize: "1em", marginLeft: 0 }}>
-          <legend>기능</legend>
+          <legend className="title_proj">기능</legend>
           1. 상대에게 1:1로 대화방 생성 및 메시지,사진 전송<br />
           2. 회원가입 및 로그인 기능<br />
           3. 로그인한 계정이 올린 메시지,사진 삭제<br />
@@ -23,14 +23,14 @@ const Project2 = () => {
           7. 보낸 시간 확인 가능<br />
         </fieldset>
         <fieldset id="project_field" style={{ fontSize: "1em", marginLeft: 0 }}>
-          <legend>설명</legend>
+          <legend className="title_proj">설명</legend>
           카카오톡과 같이 1 대 1로 채팅할 수 있는 웹사이트를 제작 <br />
           기본적인 기능 구현 <br />
           카카오톡과 비슷하게 자신이 보낸 내용과 상대가 보낸 메시지 색이 다르게 표시됨 <br />
           Firebase의 호스팅을 사용하여 실제로 인터넷상에 배포함 <br />
         </fieldset>
         <fieldset id="project_field" style={{ fontSize: "1em", marginLeft: 0 }}>
-          <legend>사용된 기술</legend>
+          <legend className="title_proj">사용된 기술</legend>
           프론트엔드 : React <br />
           백엔드 : Firebase <br />
           DB : Firestore(Firebase에서 지원되는 DB) <br />
