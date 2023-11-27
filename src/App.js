@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 
-import index from "./Component/index";
+// import index from "./Component/index";
 import Project from "./Component/Project";
 import Contest from "./Component/Contest";
 import Career from "./Component/Career";
@@ -8,7 +8,6 @@ import Career from "./Component/Career";
 import "./App.css";
 import Resume from "./Component/Intro/Resume";
 import Auth from "./Component/Auth/Auth";
-import { AuthProvider } from "./AuthProvider";
 
 
 
@@ -37,7 +36,7 @@ function App() {
         <div id="container" style={{ display: "flex" }}>
           <main>
             <Routes>
-              <Route path="/" Component={index} />
+              {/* <Route path="/" Component={index} /> */}
               <Route path="/introduction" Component={Resume} />
               <Route path="/project" Component={Project} />
               <Route path="/contest" Component={Contest} />
@@ -45,13 +44,12 @@ function App() {
             </Routes>
           </main>
         </div>
-        {/* <footer>
-          <i>
-            Copyright 2023. 지은이 all rights reserved.
+        <footer style={{ width: "1300px", textAlign: "center", marginBottom: "50px" }}>
+          <i style={{ fontSize: "25px", marginLeft: "300px" }}>
+            Copyright 2023. seyeonkim_ksy3432 all rights reserved.
             <br />
-            연락처 : //
           </i>
-        </footer> */}
+        </footer>
       </>
     </BrowserRouter >
   );

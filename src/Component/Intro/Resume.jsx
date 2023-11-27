@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 
 const Resume = () => {
 	return (
-		<div id="resume" style={{ display: 'flex', marginLeft: "50px" }}>
-			<table id='entityTable'>
+		<div id="resume" style={{ display: 'flex', marginLeft: "80px" }}>
+			<table id='entityTable' style={{ marginBottom: "50px" }}>
 				<tr>
 					<td id='basicheight'>
 						<fieldset className='mainfield' id='basic'>
 							<legend>
-								<em>Bascic info</em>
+								<em className='restit'>Bascic info</em>
 							</legend>
 							<table id='basiccontent'>
 								{/* <tr>
@@ -44,7 +44,7 @@ const Resume = () => {
 					<td>
 						<fieldset className='mainfield' id='intern'>
 							<legend>
-								<em>Intern & experience</em>
+								<em className='restit'>Intern & experience</em>
 							</legend>
 							<table id='interncontent'>
 								<tr>
@@ -81,7 +81,7 @@ const Resume = () => {
 					<td id='maj'>
 						<fieldset className='mainfield' id='major'>
 							<legend>
-								<em>majors</em>
+								<em className='restit'>majors</em>
 							</legend>
 							<table id='Major'>
 								<tr>
@@ -95,19 +95,25 @@ const Resume = () => {
 								<tr>
 									<td>앱</td>
 									<td>ReactNative</td>
+									<td>Flutter</td>
 								</tr>
 								<tr>
 									<td>AI</td>
 									<td colSpan={2}>기초수학(통계,미적,정수론 등)</td>
 								</tr>
 								<tr>
-									<td>서버</td>
+									<td rowSpan={2}>서버</td>
 									<td>Linux</td>
 									<td>CloudComputing</td>
 								</tr>
 								<tr>
+									<td>nodejs</td>
+									<td>django</td>
+								</tr>
+								<tr>
 									<td>DB</td>
 									<td>SQLD</td>
+									<td>MySQL</td>
 								</tr>
 							</table>
 						</fieldset>
@@ -147,9 +153,9 @@ const Resume = () => {
 					<td id='third'>
 						<fieldset className='mainfield' id='contest_intro'>
 							<legend>
-								<em>Contsest</em>
+								<em className='restit'>Contsest</em>
 							</legend>
-							<table>
+							<table style={{ height: "350px" }}>
 								<tr><th className='c1'>공모전</th>
 									<th>관련 분야</th></tr>
 								<tr>
@@ -183,7 +189,7 @@ const Resume = () => {
 					<td id='cert'>
 						<fieldset className='mainfield' id='certificate'>
 							<legend>
-								<em>Certificate</em>
+								<em className='restit'>Certificate</em>
 
 							</legend>
 							<table id='certcontent'>
@@ -246,7 +252,7 @@ const Resume = () => {
 					<td id='fourth'>
 						<fieldset className='mainfield' id='proj'>
 							<legend>
-								<em>Project</em>
+								<em className='restit'>Project</em>
 							</legend>
 							<table style={{ height: "350px" }}>
 								<tr><th className='p1'>프로젝트명</th>

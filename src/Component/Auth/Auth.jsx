@@ -53,10 +53,10 @@ function Auth() {
 
     if (isLogged) {
         return (
-            <div style={{ display: 'flex' }}>
-                {Name}님 환영합니다!
+            <div style={{ fontSize: "20px" }}>
+                {Name}님 <br />환영합니다!
                 <form onSubmit={handleLogout}>
-                    <button type='submit'>로그아웃</button>
+                    <button type='submit' style={{ marginTop: "10px", width: "70px", fontSize: "15px" }}>Logout</button>
                 </form>
             </div>
         )
