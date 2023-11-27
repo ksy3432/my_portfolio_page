@@ -114,7 +114,7 @@ const Resume = () => {
 					</td>
 
 
-					<td id='cert'>
+					{/* <td id='cert'>
 						<fieldset className='mainfield' id='certificate'>
 							<legend>
 								<em>Certificate</em>
@@ -143,10 +143,7 @@ const Resume = () => {
 								</tr>
 							</table>
 						</fieldset>
-					</td>
-				</tr>
-
-				<tr>
+					</td> */}
 					<td id='third'>
 						<fieldset className='mainfield' id='contest_intro'>
 							<legend>
@@ -180,6 +177,72 @@ const Resume = () => {
 						</fieldset>
 
 					</td>
+				</tr>
+
+				<tr>
+					<td id='cert'>
+						<fieldset className='mainfield' id='certificate'>
+							<legend>
+								<em>Certificate</em>
+
+							</legend>
+							<table id='certcontent'>
+								<tr>
+									<th>자격증</th>
+									<th>분야</th>
+									<th>시기</th>
+								</tr>
+								<tr>
+									<td>리눅스 마스터 2급</td> <td>서버,네트워크</td> <td>2023-1</td>
+								</tr>
+								<tr>
+									<td>네트워크 관리사 2급</td> <td>서버,네트워크</td> <td>2023-2</td>
+								</tr>
+								<tr>
+									<td>SQLD</td>	<td>데이터베이스</td> <td>2021-2</td>
+								</tr>
+								<tr>
+									<td>정보처리기사 </td> <td>IT 기초지식</td> <td>2025-1</td>
+								</tr>
+								<tr>
+									<td>AWS </td> <td>클라우드</td> <td>2025-2</td>
+								</tr>
+							</table>
+						</fieldset>
+					</td>
+					{/* <td id='third'>
+						<fieldset className='mainfield' id='contest_intro'>
+							<legend>
+								<em>Contsest</em>
+							</legend>
+							<table>
+								<tr><th className='c1'>공모전</th>
+									<th>관련 분야</th></tr>
+								<tr>
+									<td className='c1'>[앨리스코드챌린지]AI 플랫폼 백엔드 개발 콘테스트</td>
+									<td>서버,백엔드</td>
+								</tr>
+								<tr>
+									<td className='c1'>구름톤 in JEJU 8기</td>
+									<td>프론트,백엔드,DB</td>
+
+								</tr>
+								<tr>
+									<td className='c1'>2023 제 23회 ICPC 대학생 프로그래밍 경시대회</td>
+									<td>알고리즘</td>
+								</tr>
+								<tr>
+									<td className='c1'>웹 2.0/3.0 서비스공모 2023 청년빌더 오디션</td>
+									<td>프론트,백엔드,풀스텍</td>
+								</tr>
+								<tr>
+									<td className='c1'>2023 코드프레소 웹 개발 콘테스트</td>
+									<td>프론트,백엔드,풀스텍</td>
+								</tr>
+							</table>
+						</fieldset>
+
+					</td> */}
 					<td id='fourth'>
 						<fieldset className='mainfield' id='proj'>
 							<legend>

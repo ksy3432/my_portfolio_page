@@ -2,13 +2,30 @@
     width: 120px;
     height: 45px;
     font-size: 20px;
+    border-radius: 20px;
+}
+
+@font-face {
+    font-family: 'NPSfontBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 #commentinput {
-    width: 800px;
+    width: 700px;
     height: 40px;
     background-color: grey;
     color: aliceblue;
+    margin-left: 35px;
+    border-radius: 30px;
 }
 
 #commentinput::placeholder {
@@ -18,4 +35,5 @@
 #commentline {
     margin-top: 10px;
     display: flex;
+
 }

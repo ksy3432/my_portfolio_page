@@ -4,13 +4,14 @@ import "../CSS/Project.css"
 const Project1 = () => {
   return (
     <div>
-      <div id="projcontent" style={{ display: "flex" }}>
-        <h1>React와 Firebase를 이용한 트위터 클론코딩하기</h1>
+      <div id="projcontent" style={{ marginBottom: 0 }}>
+        <h1 style={{ marginBottom: 0 }}>React와 Firebase를 이용한 트위터 클론코딩</h1>
         <Link to={"https://github.com/ksy3432/nwitter"} style={{ textDecorationColor: "grey" }}>
-          <h1 style={{ color: "grey" }}>(완료)</h1>
+          <h1 style={{ color: "grey", marginTop: 0 }}>(완료)</h1>
         </Link>
       </div>
       <div>
+
 
       </div>
       <Link to={"https://nwitter-b14ca.web.app/#/"}>

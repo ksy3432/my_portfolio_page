@@ -17,7 +17,11 @@ const Career1 = () => {
               <td>가천대학교 산학 협력 인턴</td>
             </tr>
             <tr>
-              <td>2025.1 ~ 2026.1</td>
+              <td className="i1">2025.3 ~ 2026.12</td>
+              <td>코코네스쿨 창업 개발자 인턴</td>
+            </tr>
+            <tr>
+              <td>2026.1 ~ 2027.1</td>
               <td>싸피(Saffy)</td>
             </tr>
           </table>

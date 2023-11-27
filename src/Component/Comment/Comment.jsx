@@ -43,9 +43,12 @@ function Comment({ submittedData }) {
     }, [localStorage.getItem('currentUserName')]);
 
     return (
-        <div>
-            <p>{nickName} : {submittedData}</p>
-        </div>
+        <div style={{ height: "70px", width: "830px", marginLeft: "35px", borderRadius: "15px", height: "90px", marginBottom: "30px" }}>
+            <p id='commenttitle' style={{
+                marginBottom: 10, color: 'black', fontFamily: 'NPSfontBold', fontSize: "23px", paddingLeft: "15px", backgroundColor: "grey", borderRadius: "15px", width: "170px", marginBottom: "11px", height: "30px"
+            }}>{nickName} </p>
+            <p id='commentcontnet' style={{ backgroundColor: "#9E9E9E", marginTop: 0, fontSize: "28px", paddingLeft: "15px", height: "65px", borderRadius: "15px", fontFamily: 'KOTRAHOPE' }}>{submittedData}</p>
+        </div >
     );
 }
 

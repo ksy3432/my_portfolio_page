@@ -1,5 +1,5 @@
 #resume {
-  width: 1350px;
+  width: 1300px;
 }
 
 body {
@@ -23,7 +23,7 @@ em {
   border: 2px solid white;
   table-layout: fixed;
   /* 테이블 레이아웃을 고정으로 설정 */
-  width: 1800px;
+  width: 1350px;
   /* 테이블 전체 너비를 100%로 설정 */
   height: 1300px;
 }
@@ -38,7 +38,7 @@ em {
 }
 
 .c1 {
-  width: 440px;
+  width: 550px;
 }
 
 #interncontent {}
@@ -55,27 +55,27 @@ em {
 
 #basic {
   margin-left: 10px;
-  width: 670px;
+  width: 570px;
   height: 380px;
 }
 
 #intern {
-  width: 540px;
+  width: 530px;
   height: 380px;
-  margin-left: 70px;
+  margin-left: 10px;
 }
 
 fieldset#major {
   margin-top: 0;
-  height: 350px;
-  width: 605px;
+  height: 398px;
+  width: 400px;
   margin-left: 10px;
   vertical-align: top;
 }
 
 #certificate {
-  width: 600px;
-  height: 350px;
+  width: 480px;
+  height: 380px;
   margin-left: 10px;
   margin-top: 0;
 }
@@ -108,7 +108,7 @@ td#fourth {
 
 #contest_intro {
   margin-top: 0;
-  margin-left: 10px;
+  margin-left: -170px;
   width: 710px;
   height: 400px;
   vertical-align: top;
@@ -120,9 +120,9 @@ td#fourth {
 
 #proj {
   margin-top: 0;
-  width: 500px;
-  margin-left: 100px;
-  height: 400px;
+  width: 630px;
+  margin-left: -90px;
+  height: 380px;
 }
 
 .p1 {
@@ -183,3 +183,7 @@ tr {
   margin-left: 950px;
   font-size: 1.5em;
 } */
+
+.vector {
+  margin-right: 20px;
+}
