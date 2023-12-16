@@ -1,30 +1,3 @@
-<!-- <template>
-    <div>
-        <CareerDatas />
-    </div>
-</template>
-
-<script>
-import CareerDatas from './components/Data/CareerDatas.vue';
-export default {
-    components: {
-        CareerDatas
-    },
-    data() {
-        return {
-            careerDatas: []
-        };
-    },
-    mounted() {
-        this.getCareerDatas();
-    },
-    methods: {
-        getCareerDatas() {
-            this.careerDatas = CareerDatas;
-        }
-    }
-};
-</script> -->
 <template>
     <div>
         <div

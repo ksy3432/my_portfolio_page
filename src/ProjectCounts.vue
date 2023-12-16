@@ -1,33 +1,3 @@
-<!-- <template>
-    <div>
-        <ProjectDatas />
-    </div>
-</template>
-
-<script>
-import ProjectDatas from './components/Data/ProjectDatas.vue';
-
-export default {
-    components: {
-        ProjectDatas
-    },
-    data() {
-        return {
-            projectDatas: []
-        };
-    },
-    mounted() {
-        this.getProjectDatas();
-    },
-    methods: {
-        getProjectDatas() {
-            this.projectDatas = ProjectDatas;
-        }
-    }
-};
-</script> -->
-
-<!-- //결과보고서 앞에 서버 주소 올리기 -->
 <template>
     <div>
         <div
