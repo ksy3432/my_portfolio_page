@@ -72,7 +72,7 @@ export default {
         <div v-for="(data, index) in submittedDataList" :key="index">
             <CommentServe :submittedData="submittedDataList" />
             <p id='commentcontent'
-                style="background-color: #9E9E9E; marginTop: 0; fontSize: 28px; margin-left:30px; padding-left:12px; padding-top:3px;height: 65px; borderRadius: 15px; fontFamily: 'KOTRAHOPE'">
+                style="background-color: #9E9E9E; marginTop: 0; fontSize: 28px; margin-left:30px; padding-left:12px; padding-top:3px;height: 65px; borderRadius: 15px; fontFamily: 'KOTRAHOPE'; width:92%;">
                 {{ data.content }}</p>
         </div>
         <br />
@@ -136,7 +136,7 @@ export default {
 }
 
 #commentinput {
-    width: 700px;
+    width: 720px;
     height: 40px;
     background-color: grey;
     color: aliceblue;

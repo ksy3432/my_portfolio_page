@@ -91,3 +91,40 @@ export default {
     }
 };
 </script>
+
+<style>
+#LoginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#LoginButton {
+    width: 80px;
+    height: 30px;
+    border-style: none;
+    background-color: black;
+    color: aliceblue;
+}
+
+#LoginForm {
+    border-style: none;
+    border-color: black;
+}
+
+button {
+    width: 100px;
+    border-color: white;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.logininputset {
+    background-color: grey;
+    color: black;
+}
+
+.logininputset::placeholder {
+    color: black;
+}
+</style>

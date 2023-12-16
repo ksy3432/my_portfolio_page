@@ -3,7 +3,7 @@
         <fieldset>
             <legend class="title_field">관심사</legend>
             <fieldset id="career_field">
-                <legend>분야</legend>
+                <legend class="int_tit">분야</legend>
                 <table>
                     <tr>
                         <td>분야</td>

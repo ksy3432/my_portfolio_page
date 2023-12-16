@@ -4,7 +4,7 @@
             <legend class="title_field">개발블로그</legend>
             <a href="https://ksy3432.vercel.app/" style="color: grey">클릭하면 블로그로 이동합니다</a>
             <fieldset>
-                <legend>블로그</legend>
+                <legend class="int_tit">블로그</legend>
                 <p>블로그 시작 시기: 2023.6</p>
                 <p>블로그 구축 방법: github의 MoreThanMin님의 프로젝트를 이용하여 블로그 구축</p>
                 <p>이후 vercel을 이용하여 배포</p>
@@ -22,5 +22,9 @@ export default {
 </script>
 
 <style scoped>
-/* ../CSS/Career.css 파일의 내용을 여기에 붙여넣으세요 */
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
 </style>

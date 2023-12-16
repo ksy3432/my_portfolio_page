@@ -123,3 +123,75 @@ export default {
     },
 };
 </script>
+
+<style>
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GoryeongStrawberry';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/GoryeongStrawberry.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KCCMurukmuruk';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCMurukmuruk.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HakgyoansimGaeulsopungB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimGaeulsopungB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+#wrapper_field {
+    font-size: 1.2em;
+}
+
+.i1 {
+    padding-right: 10px;
+}
+
+.title_field {
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'GoryeongStrawberry';
+}
+
+fieldset {
+    width: 800px;
+    margin-left: 0px;
+    font-size: 30px;
+    font-family: 'HakgyoansimGaeulsopungB';
+}
+
+#button_career {
+    width: 160px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: black;
+    border-style: none;
+    margin-left: 2px;
+    border-radius: 5%;
+}
+
+#button_career:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.int_tit {
+    font-family: 'KCCMurukmuruk';
+}
+</style>

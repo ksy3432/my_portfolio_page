@@ -2,15 +2,15 @@
     <div>
         <div>
             <p
-                style="font-size: 23px; font-family: 'NPSfontBold'; color:black; backgroundColor: grey; borderRadius: 15px; width:170px; marginbottom:11px; height:30px; margin-left:30px; padding-left:13px; margin-bottom:10px;">
+                style="font-size: 23px; font-family: 'NPSfontBold'; color:black; backgroundColor: grey; borderRadius: 15px; width:170px; marginbottom:11px; height:28px; margin-left:30px; padding-left:20px; margin-bottom:10px; padding-top: 2px;">
                 {{ nickName }}</p>
-            <!-- marginBottom: 10, color: 'black', fontFamily: 'NPSfontBold', fontSize: "23px", paddingLeft: "15px",
-                 backgroundColor: "grey", borderRadius: "15px", width: "170px", marginBottom: "11px", height: "30px" -->
         </div>
     </div>
 </template>
 
 <script>
+import { ref, onMounted, onUnmounted } from 'vue';
+
 export default {
     name: 'CommentServe',
     props: {
@@ -19,16 +19,69 @@ export default {
             required: true
         }
     },
-    data() {
-        return {
-            nickName: localStorage.getItem('currentUserName') || 'annonymous'
+    setup() {
+        const nickName = ref(localStorage.getItem('currentUser') ? JSON.parse(localStorage.getItem('currentUser')).name : 'annonymous');
+
+        const updateNickName = () => {
+            const currentUser = localStorage.getItem('currentUser');
+            if (currentUser) {
+                nickName.value = JSON.parse(currentUser).name;
+            } else {
+                nickName.value = 'annonymous';
+            }
         };
-    },
-    created() {
-        this.nickName = localStorage.getItem('currentUserName') || 'annonymous';
+
+        const onStorageChange = (event) => {
+            if (event.key === 'currentUser') {
+                updateNickName();
+            }
+        };
+
+        onMounted(() => {
+            window.addEventListener('storage', onStorageChange);
+            updateNickName();
+        });
+
+        onUnmounted(() => {
+            window.removeEventListener('storage', onStorageChange);
+        });
+
+        return { nickName };
     }
 };
+
 </script>
+
+<!-- <template>
+    <div>
+        <div>
+            <p
+                style="font-size: 23px; font-family: 'NPSfontBold'; color:black; backgroundColor: grey; borderRadius: 15px; width:170px; marginbottom:11px; height:28px; margin-left:30px; padding-left:20px; margin-bottom:10px; padding-top: 2px;">
+                {{ nickName }}</p>
+        </div>
+    </div>
+</template>
+
+<script>
+import { mapGetters } from 'vuex';
+
+export default {
+    name: 'CommentServe',
+    props: {
+        submittedData: {
+            type: String,
+            required: true
+        }
+    },
+    computed: {
+        ...mapGetters([
+            'nickName'
+        ])
+    }
+};
+</script> -->
+
+
 
 <style scoped>
 @font-face {

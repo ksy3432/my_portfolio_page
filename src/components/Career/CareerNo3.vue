@@ -3,7 +3,7 @@
         <fieldset>
             <legend class="title_field">스터디 & 동아리</legend>
             <fieldset>
-                <legend>스터디</legend>
+                <legend class="int_tit">스터디</legend>
                 <table>
                     <tr>
                         <td>활동 시기</td>
@@ -20,7 +20,7 @@
                 </table>
             </fieldset>
             <fieldset>
-                <legend>동아리</legend>
+                <legend class="int_tit">동아리</legend>
                 <table>
                     <tr>
                         <td style="padding-right: 15px">활동 시기</td>

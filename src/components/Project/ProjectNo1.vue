@@ -2,9 +2,9 @@
     <div>
         <div id="projcontent" style="margin-bottom: 0">
             <h1 style="margin-bottom: 0">React와 Firebase를 이용한 트위터 클론코딩</h1>
-            <router-link to="https://github.com/ksy3432/nwitter" style="text-decoration-color: grey">
+            <a href="https://github.com/ksy3432/nwitter" style="text-decoration-color: grey">
                 <h1 style="color: grey; margin-top: 0">(완료)</h1>
-            </router-link>
+            </a>
         </div>
         <div>
 
