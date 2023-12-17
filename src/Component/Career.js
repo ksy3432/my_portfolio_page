@@ -5,7 +5,7 @@ import Comments from "./Comments";
 import { Link } from "react-scroll";
 
 
-function Carears({ name, isLogged }) {
+function Careers({ name, isLogged }) {
   // const [index, setIndex] = useState(0);
   // const contentChange = (event) => {
   //   setIndex(event.target.value);
@@ -80,10 +80,10 @@ function Carears({ name, isLogged }) {
         </div>
       </div>
       <div style={{ marginLeft: "350px" }}>
-        <Comments name={name} isLogged={isLogged} />
+        <Comments />
       </div>
     </div>
   );
 }
 
-export default Carears;
+export default Careers;

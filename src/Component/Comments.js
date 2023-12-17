@@ -16,7 +16,7 @@ function Comments() {
     }
 
     return (
-        <div style={{ backgroundColor: '#424242', borderRadius: "30px", marginBottom: "50px" }}>
+        <div style={{ backgroundColor: '#424242', borderRadius: "30px", marginBottom: "50px", width: "900px", marginLeft: "50px" }}>
             <br />
             <form onSubmit={(e) => {
                 e.preventDefault();

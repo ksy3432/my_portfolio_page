@@ -66,7 +66,7 @@ function Contest({ name, isLogged }) {
         </div>
       </div>
       <div style={{ marginLeft: "350px" }}>
-        <Comments name={name} isLogged={isLogged} />
+        <Comments />
       </div>
     </div>
   );

@@ -35,7 +35,7 @@ img{
 }
 
 #wrapper_field {
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
 }
 
 .i1 {
@@ -43,15 +43,15 @@ img{
 }
 
 .title_field {
-  font-size: 35px;
+  font-size: 45px;
   font-style: italic;
   font-family: 'GoryeongStrawberry';
 }
 
 fieldset {
-  width: 800px;
+  width: 900px;
   margin-left: 0px;
-  font-size: 30px;
+  font-size: 45px;
   font-family: 'HakgyoansimGaeulsopungB';
 }
 
