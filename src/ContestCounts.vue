@@ -14,8 +14,10 @@
             </div>
             <div style="display: flex; flex-direction: column; position: fixed; margin-top: 50px; margin-left: 10px"
                 id="indexbutton">
-                <a v-for="(contest, idx) in Contests" :key="idx" :href="'#contest-' + idx" class="indexbuttoncss"
-                    :style="{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: idx === index ? 'lightgrey' : 'black', color: idx === index ? 'black' : 'white' }">
+                <a v-for="(contest, idx) in  Contests " :key="idx" :href="'#contest-' + idx" class="indexbuttoncss" :style="{
+                    display: 'flex', justifyContent: 'center', alignItems: 'center',
+                    backgroundColor: idx === index ? 'lightgrey' : 'black', color: idx === index ? 'black' : 'white'
+                }">
                     {{ contest.tab }}
                 </a>
             </div>
@@ -34,6 +36,7 @@ import ContestNo1 from "./components/Contest/ContestNo1.vue";
 import ContestNo2 from "./components/Contest/ContestNo2.vue";
 import ContestNo3 from "./components/Contest/ContestNo3.vue";
 import ContestNo4 from "./components/Contest/ContestNo4.vue";
+import ContestNo5 from './components/Contest/ContestNo5.vue';
 import CommentCounts from './CommentCounts.vue';
 
 export default {
@@ -42,6 +45,7 @@ export default {
         ContestNo2,
         ContestNo3,
         ContestNo4,
+        ContestNo5,
         CommentCounts
     },
     setup() {

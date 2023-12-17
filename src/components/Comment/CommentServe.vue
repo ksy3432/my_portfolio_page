@@ -2,7 +2,9 @@
     <div>
         <div>
             <p
-                style="font-size: 23px; font-family: 'NPSfontBold'; color:black; backgroundColor: grey; borderRadius: 15px; width:170px; marginbottom:11px; height:28px; margin-left:30px; padding-left:20px; margin-bottom:10px; padding-top: 2px;">
+                style="font-size: 23px; font-family: 'NPSfontBold'; color:black; 
+                backgroundColor: grey; borderRadius: 15px; width:170px; marginbottom:11px; 
+                height:28px; margin-left:30px; padding-left:20px; margin-bottom:10px; padding-top: 2px;margin-top:15px">
                 {{ nickName }}</p>
         </div>
     </div>

@@ -151,6 +151,11 @@ ul {
     margin-left: 0;
 }
 
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 #project_field {
     font-size: 35px;
     width: 800px;
@@ -202,6 +207,6 @@ ul {
 h1 {
     font-family: 'YClover-Bold';
     margin-bottom: 10px;
-    font-size: 2.5em;
+    font-size: 40px;
 }
 </style>

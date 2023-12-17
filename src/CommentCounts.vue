@@ -7,9 +7,6 @@
                 <button id="commentbuttonsubmit" type="submit">댓글달기</button>
             </div>
         </form>
-        <!-- <div>
-            <CommentServe v-for="(data, index) in submittedDataList" :key="index" :submittedData="data" />
-        </div> -->
         <div v-for="(data, index) in submittedDataList" :key="index">
             <CommentServe :submittedData="submittedDataList" />
             <p id='commentcontent'

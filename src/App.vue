@@ -77,31 +77,7 @@ export default {
     AuthServe,
   },
   router,
-  // data() {
-  //   return {
-  //     currentComponent: null,
-  //   };
-  // },
-  // computed: {
-  //   currentComponent() {
-  //     const routeParams = this.$route.params;
-  //     let component = null;
-  //     switch (routeParams.type) {
-  //       case 'project':
-  //         component = ProjectDatas;
-  //         break;
-  //       case 'contest':
-  //         component = ContestDatas;
-  //         break;
-  //       case 'career':
-  //         component = CareerDatas;
-  //         break;
-  //       default:
-  //         break;
-  //     }
-  //     return component;
-  //   },
-  // },
+
 };
 </script>
 
@@ -150,16 +126,6 @@ body {
 
 
 .category {
-  /* display: flex; */
-  /* flex-direction: column;
-  justify-content: left;
-  align-items: left;
-  width: 200px;
-  font-size: 1.3em;
-  margin-left: 40px;
-  margin-top: 20px;
-  text-align: center;
-  height: 300px; */
   font-size: 35px;
   width: 1000px;
   height: 40px;
